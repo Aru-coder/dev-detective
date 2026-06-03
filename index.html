@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dev Detective</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+rel="stylesheet"
+/>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Dev Detective</h1>
+
+    <div class="toggle-container">
+        <button id="singleBtn" class="active">
+            Single Search
+        </button>
+
+        <button id="battleBtn">
+            Battle Mode
+        </button>
+    </div>
+
+    <!-- SINGLE SEARCH -->
+
+    <div id="singleSearch">
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter GitHub Username"
+            >
+            <button onclick="searchUser()">
+                Search
+            </button>
+        </div>
+
+    </div>
+
+    <!-- BATTLE MODE -->
+
+    <div id="battleSearch" class="hidden">
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="user1"
+                placeholder="User 1"
+            >
+
+            <input
+                type="text"
+                id="user2"
+                placeholder="User 2"
+            >
+
+            <button onclick="battleMode()">
+                Battle
+            </button>
+
+        </div>
+
+    </div>
+
+    <div id="loading"></div>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
