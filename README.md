@@ -6,11 +6,11 @@ This project was developed for the Prodesk IT Sprint 03 assignment and demonstra
 
 ## Live Website
 
-https://your-vercel-link.vercel.app/
+dev-detective-sprint03-dvrqzflo0-anushka10.vercel.app
 
 ## GitHub Repository
 
-https://github.com/your-github-username/dev-detective
+https://github.com/Aru-coder/dev-detective
 
 ## Features
 
