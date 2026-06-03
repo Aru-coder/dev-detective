@@ -6,7 +6,7 @@ This project was developed for the Prodesk IT Sprint 03 assignment and demonstra
 
 ## Live Website
 
-dev-detective-sprint03-dvrqzflo0-anushka10.vercel.app
+https://dev-detective-sprint03-dvrqzflo0-anushka10.vercel.app
 
 ## GitHub Repository
 
